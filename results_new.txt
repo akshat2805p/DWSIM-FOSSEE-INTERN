@@ -1,0 +1,64 @@
+Error instantiating 'DWSIM.Thermodynamics.ThermoC.ThermoCPropertyPackage': System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundException: Could not load file or assembly 'ThermoCS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+   at DWSIM.Thermodynamics.ThermoC.ThermoCPropertyPackage.Init()
+   --- End of inner exception stack trace ---
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at DWSIM.SharedClasses.Utility.GetPropertyPackages(Assembly assmbly) in C:\Users\danie\source\repos\DanWBR\dwsim\DWSIM.SharedClasses\Misc\Utilities.vb:line 645
+Found DWSIM at: C:\Users\aksha\AppData\Local\DWSIM
+==================================================
+   DWSIM Automation Script - Screening Task 2
+==================================================
+
+--- Starting Part A: PFR Simulation ---
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=300K, V=1.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=300K, V=2.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=300K, V=3.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=325K, V=1.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=325K, V=2.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=325K, V=3.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=350K, V=1.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=350K, V=2.0m3]: Success
+Initializing new simulation flowsheet...
+Adding reaction to existing set: Default Set
+PFR Case [T=350K, V=3.0m3]: Success
+
+--- Starting Part B: Distillation Simulation ---
+Initializing new simulation flowsheet...
+Distillation Case [RR=1.5, N=10]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=1.5, N=15]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=1.5, N=20]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=2.0, N=10]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=2.0, N=15]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=2.0, N=20]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=3.0, N=10]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=3.0, N=15]: Success
+Initializing new simulation flowsheet...
+Distillation Case [RR=3.0, N=20]: Success
+
+Exporting results to results.csv...
+Done. Results saved to C:\Users\aksha\OneDrive\Desktop\FOSSEE\results.csv
